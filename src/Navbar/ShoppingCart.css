@@ -1,0 +1,139 @@
+.shopping-cart-container {
+  max-width: 1200px; /* Limit the max width */
+  margin: 0 auto; /* Center the container */
+  padding: 20px; /* Add padding */
+  background: #f9f9f9; /* Light background color */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.shopping-cart-title {
+  font-size: 2.5em; /* Larger title size */
+  text-align: center; /* Center the title */
+  color: #333; /* Darker text color */
+  margin-bottom: 20px; /* Space below title */
+}
+
+.shopping-cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Space between items */
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow */
+  position: relative;
+  background: linear-gradient(to right, 
+    rgba(255, 210, 46, 0.768), /* Light pastel pink */
+    rgba(237, 170, 194, 0.6) /* Light pastel green */
+  ); /* Default pastel gradient */
+}
+
+.cart-item:nth-child(2n) {
+  background: linear-gradient(to right, 
+    rgba(25, 153, 216, 0.6), /* Light pastel blue */
+    rgba(255, 245, 204, 0.6) /* Light pastel yellow */
+  ); /* Alternate pastel gradient */
+}
+
+.cart-item:nth-child(3n) {
+  background: linear-gradient(to right, 
+    rgba(217, 154, 65, 0.6), /* Light pastel purple */
+    rgba(255, 229, 204, 0.6) /* Light pastel orange */
+  ); /* Third gradient */
+}
+
+.cart-item:nth-child(4n) {
+  background: linear-gradient(to right, 
+    rgba(204, 255, 236, 0.6), /* Light pastel mint */
+    rgba(255, 204, 255, 0.6) /* Light pastel pinkish lavender */
+  ); /* Fourth gradient */
+}
+
+.cart-item-img {
+  width: 120px; /* Fixed width for images */
+  height: 80px; /* Fixed height */
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.cart-item-details {
+  flex: 1;
+  margin-left: 20px; /* Space between image and text */
+}
+
+.cart-item-details h2 {
+  font-size: 1.5em; /* Larger font size for item name */
+  color: #333; /* Dark text color */
+}
+
+.cart-item-price {
+  font-size: 1.2em; /* Font size for price */
+  color: #555; /* Slightly lighter color */
+  margin: 10px 0; /* Space around price */
+}
+
+.cart-item-quantity {
+  margin: 10px 0; /* Space around quantity input */
+  display: flex;
+  align-items: center;
+}
+
+.cart-item-quantity label {
+  margin-right: 10px; /* Space between label and input */
+}
+
+.cart-item-quantity input {
+  width: 60px; /* Fixed width for input */
+  padding: 5px;
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 5px;
+}
+
+.remove-item-button {
+  background-color: hwb(19 28% 15%); /* Red background for remove button */
+  color: #fff1f1; /* White text */
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.remove-item-button:hover {
+  background-color: #c0392b; /* Darker red on hover */
+}
+
+.shopping-cart-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px; /* Space above total section */
+  padding: 20px;
+  background: #fff; /* White background */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+.shopping-cart-total h2 {
+  font-size: 1.8em; /* Font size for total */
+  color: #333; /* Dark text color */
+}
+
+.checkout-button {
+  background-color: #3498db; /* Blue background for checkout button */
+  color: #fff; /* White text */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.checkout-button:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}

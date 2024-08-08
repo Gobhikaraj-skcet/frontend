@@ -1,0 +1,62 @@
+/* Login.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  background: url('C:\Users\gobhi\Downloads\bc log.jpg') no-repeat center center;
+  background-size: cover; /* Ensures the background image covers the entire container */
+  background-attachment: fixed; /* Keeps the background image fixed during scroll */
+}
+
+.form-wrapper {
+  background: rgba(234, 232, 232, 0.8); /* Transparent white background */
+  padding: 40px; /* Padding for form spacing */
+  width: 350px; /* Adjust width as needed */
+  border-radius: 8px; /* Optional: for rounded corners */
+  box-shadow: none; /* Removed box shadow */
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 1.5rem; /* Optional: adjust font size if needed */
+}
+
+.form-group {
+  margin-bottom: 20px; /* Increased margin for more space between fields */
+}
+
+label {
+  display: block;
+  margin-bottom: 8px; /* Slightly larger margin for better spacing */
+}
+
+input {
+  width: 100%;
+  padding: 12px; /* Increased padding for larger input fields */
+  box-sizing: border-box;
+  border: 1px solid #ddd; /* Optional: border for better visibility */
+  border-radius: 4px; /* Optional: rounded corners */
+}
+
+button {
+  padding: 12px 20px; /* Increased padding for larger button */
+  border: none;
+  background: #c63f2d; /* Example pastel color for button */
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: #33722d; /* Slightly darker shade for hover effect */
+}

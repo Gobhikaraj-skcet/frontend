@@ -1,0 +1,78 @@
+.banner {
+  display: flex; /* Use Flexbox to align items */
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Space between items */
+  padding: 20px; /* Optional: Add padding */
+  background: linear-gradient(to right, 
+    #fbc2eb, /* Pastel pink */
+    #a6c1ee, /* Pastel blue */
+    #f9f7d9, /* Pastel yellow */
+    #e6b4e2, /* Pastel light blue */
+    #a1678f  /* Pastel mint */
+  ); /* Pastel gradient background */
+  border-radius: 10px; /* Optional: Add rounded corners */
+}
+
+
+.banner-content {
+  display: flex;
+  flex-direction: row; /* Arrange items in a row */
+  align-items: center; /* Center items vertically */
+  width: 100%; /* Ensure full width */
+}
+
+.banner-image {
+  flex: 1; /* Allow image to take available space */
+  display: flex;
+  justify-content: flex-start; /* Align image to the left */
+}
+
+.banner-image img {
+  width: 150%; /* Adjust to fit the container */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 600px; /* Optional: Limit the maximum width */
+  border-radius: 8px; /* Optional: Add rounded corners */
+}
+
+.banner-text {
+  flex: 2; /* Allow text to take more space */
+  padding: 0 20px; /* Optional: Add horizontal padding */
+  text-align: center; /* Align text to the left */
+  margin-left: auto; /* Push text to the right side */
+}
+
+.banner-text h1 {
+  font-size: 60px; /* Medium font size for the heading */
+  margin: 0 0 10px 0; /* Margin for spacing below the heading */
+  line-height: 1.2; /* Improve readability */
+}
+
+.banner-text p {
+  font-size: 25px; /* Adjusted font size for readability */
+  margin: 0 0 20px 0; /* Margin for spacing below the paragraph */
+  line-height: 1.6; /* Improve readability */
+  text-align: right; /* Align text to the right */
+}
+
+.banner-buttons {
+  display: flex; /* Use Flexbox for alignment */
+  justify-content: center; /* Center the buttons horizontally */
+  gap: 10px; /* Optional: Add space between buttons */
+}
+
+.browse-button,
+.more-button {
+  font-size: 18px; /* Increase font size for larger buttons */
+  padding: 10px 20px; /* Add padding for larger button size */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Optional: Add rounded corners */
+  background-color: #ab7272; /* Example background color */
+  color: #fff; /* Text color */
+  cursor: pointer; /* Show pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.browse-button:hover,
+.more-button:hover {
+  background-color: #c18585; /* Darker color on hover */
+}

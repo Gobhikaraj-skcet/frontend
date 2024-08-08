@@ -1,0 +1,108 @@
+/* src/pages/Home.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9; /* Light background color */
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+h2 {
+  color: #333; /* Primary text color */
+}
+
+/* Banner.css */
+
+/* Banner.css */
+
+.banner {
+  width: 100%;
+  background: linear-gradient(to right, 
+  #f0dde3, /* Pastel peach */
+    #f3f3f3, /* Pastel blue */
+    #f0cfd9, /* Pastel green */
+    #e4abbc  /* Pastel pink */
+  );
+  padding: 40px 20px;
+  text-align: center;
+}
+
+
+
+.trending-products {
+  width: 100%;
+  background: linear-gradient(135deg, #fbc2eb, #a6c0fe); /* Pastel gradient background */
+  padding: 40px 20px;
+  margin: 20px 0;
+  border-radius: 10px; /* Optional: Adds rounded corners for a softer look */
+}
+
+/* Additional styling for the rest of the component */
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 200px; /* Set a fixed width for uniformity */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.product-card img {
+  width: 100%;
+  height: 200px; /* Set a fixed height for uniformity */
+  object-fit: cover; /* Ensure images cover the area without distortion */
+  border-radius: 10px;
+}
+
+.product-info {
+  padding: 10px;
+  text-align: center;
+}
+
+.product-info h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 10px 0;
+}
+
+.product-info p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.product-category span {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+
+.categories {
+  width: 100%;
+  background: linear-gradient(135deg, #f6c1c1, #f6e6d4, #d0e3f0, #d4e7d4); /* Pastel gradient background */
+  padding: 40px 20px;
+  margin: 20px 0;
+  border-radius: 10px; /* Optional: Adds rounded corners for a softer look */
+}
+
+
+.category-card {
+  background-color: #c3b3b3; /* Theme color for card */
+}
+
+/* Add more specific styles for other components if necessary */

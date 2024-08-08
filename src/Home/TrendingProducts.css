@@ -1,0 +1,72 @@
+.trending-products {
+  padding: 60px;
+  background: linear-gradient(45deg, #ffebf0, #d1c4e9, #b9fbc0, #d4e157, #f7a9a4); /* Trendy pastel gradient */
+  text-align: center;
+  border-radius: 15px; /* Rounded corners for a softer look */
+}
+
+.trending-products h2 {
+  font-size: 2.8em;
+  margin-bottom: 20px;
+  color: #2e2e2e; /* Darker color for better readability */
+  font-family: 'Montserrat', sans-serif; /* Trendy font */
+}
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px; /* Increased gap for better spacing */
+}
+
+.product-card {
+  background: #ffffff;
+  border-radius: 15px; /* Enhanced border radius */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Deeper shadow for a modern effect */
+  overflow: hidden;
+  width: 220px; /* Slightly larger width for a more prominent card */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px; /* Increased padding for better content spacing */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.product-card:hover {
+  transform: translateY(-10px); /* Lift effect on hover */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.product-card img {
+  width: 100%;
+  height: 220px; /* Updated height for a slightly larger image */
+  object-fit: cover;
+  border-radius: 15px;
+  transition: opacity 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.product-card img:hover {
+  opacity: 0.9; /* Slightly fade image on hover */
+}
+
+.product-info {
+  padding: 15px;
+  text-align: center;
+}
+
+.product-info h3 {
+  font-size: 1.4em; /* Larger font size for better visibility */
+  color: #333333;
+  margin: 10px 0;
+  font-family: 'Roboto', sans-serif; /* Modern font */
+}
+
+.product-info p {
+  font-size: 1em;
+  color: #666666;
+}
+
+.product-category span {
+  font-size: 0.9em;
+  color: #999999; /* Slightly lighter color for a subtle look */
+}

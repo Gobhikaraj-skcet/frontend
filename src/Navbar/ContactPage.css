@@ -1,0 +1,81 @@
+/* ContactPage.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.contact-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  background: url('C:\Users\gobhi\Downloads\bc3.jpg') no-repeat center center; /* Path to your background image */
+  background-size: cover; /* Ensures the background image covers the entire container */
+  background-attachment: fixed; /* Keeps the background image fixed during scroll */
+  color: #0e0d0d; /* White text for better contrast on a potentially dark image */
+  font-family: 'Poppins', sans-serif; /* Trendy, modern font */
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #fff; /* Ensure the heading color contrasts with the background */
+  font-weight: 600;
+}
+
+.cform {
+  width: 100%;
+  max-width: 500px; /* Responsive max-width for form */
+  background: rgba(255, 255, 255, 0.8); /* Slightly transparent white background for the form */
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Slightly more prominent shadow */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+input:focus, textarea:focus {
+  border-color: #3498db; /* Trendy focus color */
+  outline: none;
+  box-shadow: 0 0 4px rgba(52, 152, 219, 0.3); /* Smooth focus effect */
+}
+
+button {
+  padding: 12px 20px;
+  border: none;
+  background: #3498db; /* Trendy button color */
+  color: #fff;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background: #2980b9; /* Darker shade for hover effect */
+  transform: scale(1.05); /* Slight scaling on hover */
+}
